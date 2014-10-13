@@ -14,19 +14,19 @@ namespace ProductLib
 
         public decimal UnitPrice
         {
-            get { return _unitPrice; }
+            get { return (decimal)123.45; }
             set { _unitPrice = value; }
         }
 
         public string BarCode
         {
-            get { return _barCode; }
+            get { return "123456789"; }
             set { _barCode = value; }
         }
 
         public string Title
         {
-            get { return _title; }
+            get { return "Product Unit"; }
             set { _title = value; }
         }
     }

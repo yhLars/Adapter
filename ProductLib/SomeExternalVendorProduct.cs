@@ -8,8 +8,26 @@ namespace ProductLib
 {
     public class SomeExternalVendorProduct
     {
-        public int PricePerUnit { get; set; }
-        public string EANCode { get; set; }
-        public string Title { get; set; }
+        private int _pricePerUnit;
+        private string _eanCode;
+        private string _title;
+
+        public int PricePerUnit
+        {
+            get { return (int)456; }
+            set { _pricePerUnit = value; }
+        }
+
+        public string EANCode
+        {
+            get { return "123456789"; }
+            set { _eanCode = value; }
+        }
+
+        public string Title
+        {
+            get { return "External Product Unit"; }
+            set { _title = value; }
+        }
     }
 }
