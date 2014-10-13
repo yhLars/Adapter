@@ -20,7 +20,7 @@ namespace ProductLib
 
         public string EANCode
         {
-            get { return "123456789"; }
+            get { return "987654321"; }
             set { _eanCode = value; }
         }
 
